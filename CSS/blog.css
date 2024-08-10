@@ -1,0 +1,39 @@
+
+.section{
+	width: 100%;
+	min-height: 100vh;
+	background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% );
+	text-align: center;
+}
+.content-section{
+	align-content: center;
+
+
+}
+.image-section{
+	width: 40%;
+}
+.image-section img{
+	width: 250%;
+	height: auto;
+}
+.content-section .title{
+	font-size: 20px;
+}
+
+.content-section .content p{
+	margin-top: 10px;
+	font-size: 18px;
+	line-height: 1.5;
+}
+.content-section .social{
+	margin-top: 40px 40px;
+}
+.content-section .social i{
+	color: #a52a2a;
+	font-size: 30px;
+	padding: 0px 10px;
+}
+.content-section .social i:hover{
+	color: #EC7063;
+}

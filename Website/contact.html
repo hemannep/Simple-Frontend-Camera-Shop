@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Camera Store">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Heman Neupane, Sambidhan Joshi, Nitisha Ranabhat, Khusi Shah">
+    <title>Candid Cart</title>
+    <link rel="icon" type="image/x-icon" href="../image/logo.png">
+    <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+    <script src="https://kit.fontawesome.com/fdbc25c8a0.js" crossorigin="anonymous"></script>
+    <script src="../Javascript/form.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <a href="home.html">
+                <img src="../image/logo.png" style="width: 150px; margin: 5px 60px; ">
+            </a>
+            <div class="nav-items">
+                <div class="search">
+                    <input type="text" class="searchbox" placeholder="Search Cameras" name="search">
+                    <button type="submit" class="searchbtn">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar">
+        <ul class="link-container">
+            <li><a href="../Website/home.html" class="topli">Home</a></li>
+            <li>
+            <div class="dropdown">
+                <button class="dropbtn">Products
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="cannon.html" class="topli">Cannon</a>
+                    <a href="nikon.html" class="topli">Nikon</a>
+                    <a href="sony.html" class="topli">Sony</a>
+                    <a href="gopro.html" class="topli">Gopro</a>
+                    <a href="products.html" class="topli">All Products</a>
+                </div>
+            </div>
+            </li>
+            <li><a href="../Website/blog.html" class="topli">Blogs</a></li>
+            <li><a href="../Website/contact.html" class="topli">Contact</a></li>
+            <li><a href="../Website/research.html" class="topli">Research</a></li>
+        </ul>
+    </nav >
+
+
+
+  <button id="myBtn" onclick="gotoBottom()">
+  <span id="indicator">
+      <i class="fa-solid fa-angle-down"></i>
+  </span>
+</button>
+<script src="../Javascript/scroller.js"></script>
+
+
+    <section style="display: flex;justify-content: center; line-height: 30px;opacity:0.8;">
+
+        <div style="width:50%;padding:40px 140px;">
+            <p style="font-size: 40px;text-align: center;margin-bottom: 30px;"><h1 class="title">Find us on Maps</h1></p>
+            <div>
+                <div class="find-us"><i class="fa-solid fa-location-dot"></i>&nbsp;Address: New-Road, Pokhara<br>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7031.383889834472!2d83.98600187909852!3d28.216670522259488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3995944d76693d11%3A0xf1f006d89be13640!2sNew%20Rd%2C%20Pokhara%2033700!5e0!3m2!1sen!2snp!4v1653638449016!5m2!1sen!2snp" width="450" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="find-us">
+                <i class="fa-solid fa-phone"></i>&nbsp;Phone no: 061-123456
+            </div>
+            <div class="find-us">
+                <i class="fa-solid fa-envelope"></i>&nbsp;E-mail: candidcart@gmail.com
+            </div>
+
+        </div>
+
+        <div style="width: 50%; background: rgb(233, 233, 233);padding: 40px 0px;">
+            <p style="font-size: 40px;text-align: center;margin-bottom: 30px;"><h1 class="title"> For Enquiries</h1></p>
+            <div style="display: flex;justify-content: center;">
+                <form class="contact-form" name="contact-form" onsubmit="return formValidation()">
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" name="name" placeholder="Write your Full Name" maxlength="40"><br><br>
+                    <label for="address">Address</label><br>
+                    <input type="text" id="address" name="address" placeholder="Write your Address" maxlength="20"><br><br>
+                    <label for="age" id="age">Age</label><br>
+                    <input type="radio" id="age_btn" name="age" value="Male" checked="checked">
+                    <label for="Male">Male</label>&nbsp;&nbsp;
+                    <input type="radio" id="age_btn" name="age" value="Female">
+                    <label for="css">Female</label><br><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" placeholder="Write your Email" maxlength="40"><br><br>
+                    <label for="message">Message</label><br>
+                    <textarea name="message" id="message" style="height:200px;" placeholder="Please Write a Message..."></textarea><br><br>
+                    <input type="submit" class="submit" value="Submit">
+                </form>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <button id="myBtn" onclick="gotoBottom()">
+        <span id="indicator">
+            <i class="fa-solid fa-angle-down"></i>
+        </span>
+      </button>
+      <script src="../Javascript/scroller.js"></script>
+      <h2 class="title">Meet Our Team</h2>
+            <div class="row">
+            <div class="col-4">
+                <img src="../image/heman.jpg"  width="100" height="250">
+                <h4>Heman Neupane</h4>
+                    
+                <p> CEO of the Company </p>
+            </div>
+            <div class="col-4">
+               <img src="../image/sambidhan.jpg"  width="100" height="250">
+                <h4>Sambidhan Joshi</h4>
+                
+                <p> CTO of the Company </p>
+            </div>
+            <div class="col-4">
+                <img src="../image/purnika.jpg"  width="100" height="250">
+                <h4> Nitisha Ranabhat </h4>
+                    
+                <p> COO of the Company </p>
+            </div>
+            <div class="col-4">
+                <img src="../image/kushi.jpg"  width="100" height="250">
+                <h4>Khusi Shah</h4>
+                    
+                <p> HRM of the Company </p>
+            </div>
+        </div>
+</div>
+
+      
+
+
+      <footer>
+          <section id="foot">
+              <div class="foot1div">
+                  <ul>
+                      <li class="ft" style="font-size: 19px;">Products</li>
+                      <li><a href="cannon.html">Cannon</a></li>
+                      <li><a href="nikon.html">Nikon</a></li>
+                      <li><a href="sony.html">Sony</a></li>
+                      <li><a href="gopro.html">Gopro</a></li>
+                  </ul>
+              </div>
+              <div class="foot2div">
+                  <ul>
+                      <li class="ft" style="font-size: 19px;">Social Media</li>
+                      <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                      <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                      <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+                      <li><a href="https://www.youtube.com/watch?v=QQUBrXUAxSs&ab_channel=TahalkaNonStop"
+                              target="_blank">Youtube</a></li>
+                  </ul>
+              </div>
+              <div class="foot3div">
+                  <ul>
+                      <li class="ft" style="font-size: 19px;">Contact US</li>
+                      <li><a href="mailto:candidcart@gmail.com" target="_blank"> candidcart@gmail.com</a></li>
+                      <li><a href="tel:+9771234567890">+977 9856015734</a></li>
+                      <li><a href="https://www.google.com/maps/@28.2128919,83.9613899,15.61z" target="_blank">
+                              New-Road,
+                              Pokhara-</a></li>
+                  </ul>
+              </div>
+
+          </section>
+          <section id="foot2">
+              <div>
+                  <p>&copy; Copyright 2023 -<a href="home.html">  Candid Cart</a></p>
+              </div>
+
+          </section>
+      </footer>
+    </body>
+    </html>

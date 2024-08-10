@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Camera Store">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Heman Neupane, Sambidhan Joshi, Nitisha Ranabhat, Khusi Shah">
+    <title>Candid Cart</title>
+    <link rel="icon" type="image/x-icon" href="../image/logo.png">
+    <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+    <script src="https://kit.fontawesome.com/fdbc25c8a0.js" crossorigin="anonymous"></script>
+    <script src="../Javascript/form.js"></script>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <a href="home.html"> 
+                <img src="../image/logo.png" style="width: 150px; margin: 5px 60px; ">
+            </a>
+            <div class="nav-items">
+                <div class="search">
+                    <input type="text" class="searchbox" placeholder="Search Cameras" name="search">
+                    <button type="submit" class="searchbtn">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        
+                    </button>
+                    
+                </div>   
+            </div>
+        </div>
+    </header>
+    <nav class="navbar">
+        <ul class="link-container">
+            <li><a href="../Website/home.html" class="topli">Home</a></li>
+            <li>
+            <div class="dropdown">
+                <button class="dropbtn">Products 
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="cannon.html" class="topli">Cannon</a>
+                    <a href="nikon.html" class="topli">Nikon</a>
+                    <a href="sony.html" class="topli">Sony</a>
+                    <a href="gopro.html" class="topli">Gopro</a>
+                    <a href="products.html" class="topli">All Products</a>
+                </div>
+            </div> 
+            </li>
+            <li><a href="../Website/blog.html" class="topli">Blogs</a></li>
+            <li><a href="../Website/contact.html" class="topli">Contact</a></li>
+            <li><a href="../Website/research.html" class="topli">Research</a></li>
+        </ul>
+    </nav >
+    
+    
+<section class="sect-slider">
+     <!-- image slider start -->
+     <div class="slider">
+        <div class="slides">
+            <!-- radio buttons start -->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+           
+            <!-- radio dutton ends -->
+
+            <!-- image slider start -->
+            <div class="slide first">
+                <a href="nikon.html"><img src="../image/slider1.jpg" ></a>
+            </div>
+            <div class="slide">
+                <a href="sony.html"><img src="../image/slider2.png" ></a>
+            </div>
+            <div class="slide">
+                <a href="cannon.html"><img src="../image/slider3.jpg" ></a>
+            </div>
+            
+            <!-- image slider end -->    
+            
+            <!-- automatic navigation start-->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+             
+            </div>
+            <!-- automatic navigation end-->
+        </div>
+
+        <!-- manual navigator start -->
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            
+        </div>
+        <!-- manual navigator end -->
+
+    </div>
+    <!-- image slider end -->
+    <script type="text/javascript">
+        var counter = 1;
+        setInterval(function(){
+          document.getElementById('radio' + counter).checked = true;
+          counter++;
+          if(counter > 3){
+            counter = 1;
+          }
+        }, 5000);
+        </script>
+</section>
+
+<div class="small-container">
+    <h2 class="title"> Featured Products </h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="nikon.html"><img src="../image/nikon3.PNG" width="250" height="250"></a>
+                <h4>Nikon Coolpix P1000</h4>
+                <p> Rs. 139,990</p>
+            </div>
+            <div class="col-4">
+                <a href="cannon.html"><img src="../image/CANON 1.PNG" width="250" height="250"></a>
+                <h4>Cannon Dslr Eos Mark</h4>
+                <p> Rs. 410,990 </p>
+            </div>
+            <div class="col-4">
+                <a href="sony.html"><img src="../image/Sony6.png" width="250" height="250"></a>
+                <h4>Sony Cinema Line FX6</h4>
+                <p>Rs.700,999</p>
+            </div>
+            <div class="col-4">
+                <a href="gopro.html"><img src="../image/gopro 1.png" width="250" height="250" ></a>
+                <h4>GoPro Hero10</h4>
+                <p> Rs. 71,725 </p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+
+        <br>
+        <br>
+        <br>
+        <h2 class="title">Our Products</h2>
+            <div class="row">
+            <div class="col-4">
+                <a href="products.html"><img src="../image/card.png"  width="250" height="250"></a>
+                <h4>128gb Card</h4>
+                <p> Rs.3,400 </p>
+            </div>
+            <div class="col-4">
+                <a href="products.html"><img src="../image/gimble.png"  width="250" height="250"></a>
+                <h4>Dji Gimble</h4>
+                <p> Rs.56,000 </p>
+            </div>
+            <div class="col-4">
+                <a href="products.html"><img src="../image/card case.png"  width="250" height="250"></a>
+                <h4> Card Case </h4>
+                <p> Rs. 14,999 </p>
+            </div>
+            <div class="col-4">
+                <a href="products.html"><img src="../image/lens1.png"  width="250" height="250"></a>
+                <h4>Travel Lens</h4>
+                <p> Rs.120,999 </p>
+            </div>
+        </div>
+</div>
+
+
+<div class="offer">
+<div class="small-container">
+    <div class="row">
+        <div class="col-2">
+            <a href="products.html"><img src="../image/S.jpg" class="offer-img"></a>
+        </div>
+        <div class="col-2">
+            <p> Exclusive Sale For Special Season </p>
+            <h1>Sony Alpha 7 IV</h1>
+            <small>
+                The camera boasts a 36.3MP full-frame sensor, E-mount compatibility, a durable magnesium alloy body, a tilting LCD screen, an electronic viewfinder, diffraction correction, 4 fps continuous shooting, full HD video, Wi-Fi with NFC, and downloadable apps, making it a versatile and high-performance camera for professional photographers. </small><br>
+            <a href="sony.html" class="btn"> Buy Now &#8594</a>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+<button id="myBtn" onclick="gotoBottom()">
+    <span id="indicator">
+        <i class="fa-solid fa-angle-down"></i>
+    </span>
+  </button>
+  <script src="../Javascript/scroller.js"></script>
+
+  <div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <a href="cannon.html"><img src="../image/Canon.png"></a>
+            </div>
+            <div class="col-5">
+                <a href="nikon.html"> <img src="../image/Nikon.png"></a>
+            </div>
+            <div class="col-5">
+                <a href="sony.html"> <img src="../image/Sony.png"></a>
+            </div>
+            <div class="col-5">
+                <a href="gopro.html"><img src="../image/Gopro.png"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <footer>
+      <section id="foot">
+          <div class="foot1div">
+              <ul>
+                  <li class="ft" style="font-size: 19px;">Products</li>
+                  <li><a href="cannon.html">Cannon</a></li>
+                  <li><a href="nikon.html">Nikon</a></li>
+                  <li><a href="sony.html">Sony</a></li>
+                  <li><a href="gopro.html">Gopro</a></li>
+              </ul>
+          </div>
+          <div class="foot2div">
+              <ul>
+                  <li class="ft" style="font-size: 19px;">Social Media</li>
+                  <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                  <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                  <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+                  <li><a href="https://www.youtube.com/watch?v=QQUBrXUAxSs&ab_channel=TahalkaNonStop"
+                          target="_blank">Youtube</a></li>
+              </ul>
+          </div>
+          <div class="foot3div">
+              <ul>
+                  <li class="ft" style="font-size: 19px;">Contact US</li>
+                  <li><a href="mailto:candidcart@gmail.com" target="_blank"> candidcart@gmail.com</a></li>
+                  <li><a href="tel:+9771234567890">+977 9856015734</a></li>
+                  <li><a href="https://www.google.com/maps/@28.2128919,83.9613899,15.61z" target="_blank">
+                          New-Road,
+                          Pokhara-</a></li>
+              </ul>
+          </div>
+        
+      </section>
+      <section id="foot2">
+          <div>
+              <p>&copy; Copyright 2023 -<a href="home.html">  Candid Cart</a></p>
+          </div>
+  
+      </section>
+  </footer>
+</body>
+</html>

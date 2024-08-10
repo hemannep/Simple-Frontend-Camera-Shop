@@ -1,0 +1,20 @@
+/* CSS for Contact form */
+.contact-form{
+    
+}
+#name, #address, #email, #message{
+    width: 400px;
+    height: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.submit{
+    border: .5px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+

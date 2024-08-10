@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* CSS for Navigation bar */
+
+.navbar{
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(129, 7, 235);
+  z-index: 7576;
+
+}
+.nav{
+  padding-left: 20px ;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-items{
+  display: flex;
+  align-items: center;
+}
+.search{
+  width: 300px;
+  display: flex;
+}
+.searchbox{
+  width: 70%;
+  height: 40px;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border:1px solid rgb(255, 255, 255);
+  text-transform: capitalize;
+  outline: none;
+}
+
+.searchbtn{
+  background-color: #383838;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border:1px solid #383838;
+  cursor: pointer;
+  
+
+}
+.fa-magnifying-glass{
+  margin: 10px;
+  color: white;
+  width: 10px;
+}
+
+.link-container{
+  width: 100%;
+  display: flex;
+  padding: 10px 10vw;
+  justify-content: center;
+  list-style: none;
+  border-top: 1px solid #fffdfd;
+}
+.topli, .dropbtn{
+  background: none;
+  font-size: inherit;
+  text-transform: capitalize;
+  border: none;
+  padding: 0 50px;
+  margin: 0 5px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: .5;
+  transition: 0.5s;
+}
+.topli:hover, .dropbtn:hover{
+  opacity: 1;
+}
+.dropdown {
+  float: none;
+  overflow: hidden;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(129, 7, 235);
+  min-width: 174px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+

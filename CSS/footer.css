@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet');
+* {
+    font-family: Oxanium;
+    -webkit-user-drag: none;
+    user-select: none;
+
+}
+h1 {
+    margin: 0px;
+}
+
+html,
+body {
+    margin: 0px;
+    background-color: rgb(231, 224, 224);
+}
+
+
+
+
+
+/* For Footer */
+
+footer {
+    margin-top: 2%;
+    margin-bottom: 0;
+}
+
+footer ul {
+    list-style: none;
+    margin-bottom: 35px;
+}
+
+footer li {
+    margin-bottom: 10px;
+}
+
+.foot1div {
+
+    margin-left: 8%;
+}
+
+.foot2div {
+    margin-left: 25%;
+}
+
+.foot3div {
+    margin-left: 25%;
+}
+
+.ft {
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    color: #fff;
+}
+
+#foot {
+    border-top: white solid;
+    display: flex;
+    background-color: #000;
+    padding-top: 2%;
+}
+
+#foot2 {
+    text-align: center;
+    border-top: white solid;
+    margin-bottom: 5px;
+}
+.brands{
+	margin: 100px auto;
+}
+.col-5{
+	width: 160px;
+}
+.col-5 img{
+	width: 100%;
+	cursor: pointer;
+	filter: grayscale(100%);
+}
+.col-5 img:hover{
+	filter: grayscale(0);
+}

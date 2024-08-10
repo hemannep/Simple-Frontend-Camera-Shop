@@ -1,0 +1,16 @@
+/* CSS for connecting all CSS of diffrent pages */
+@import 'contact.css';
+@import 'scroller.css';
+@import 'footer.css';
+@import 'nav.css';
+@import 'slider.css';
+@import 'homeextra.css';
+@import 'blog.css';
+@import 'research.css';
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
